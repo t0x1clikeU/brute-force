@@ -96,7 +96,7 @@ def try_extract(zip_path, mode, digit_range=None):
                 try:
                     zf.extractall(pwd=pwd.encode('utf-8'))
                     print_progress(count, total)
-                    print(f"\n[+] 成功: パスワードは '{pwd}'")
+                    print(f"\n[+] 成功")
                     return pwd
                 except RuntimeError:
                     print_progress(count, total)
