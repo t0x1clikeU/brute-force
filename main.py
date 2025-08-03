@@ -110,8 +110,6 @@ def try_extract(zip_path, mode, digit_range=None):
     except Exception as e:
         print(f"[-] エラーが発生しました: {e}")
         return None
-
-    print("\n[-] 全パターンを試しましたが、パスワードは見つかりませんでした。")
     return None
 
 
